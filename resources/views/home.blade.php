@@ -16,7 +16,11 @@
                 <tbody>
                     @foreach ($books as $book)
                         <tr>
-                            <td>{{ $book->title }}</td>
+                            <td>
+                                <a href="{{ route('book-detail', $book) }}" class="text-decoration-none text-light">
+                                    {{ $book->title }}
+                                </a>
+                            </td>
                             <td>{{ $book->detail->author }}</td>
                         </tr> 
                     @endforeach
@@ -27,7 +31,7 @@
         <div class="">
             <h1 class="bg-dark text-light fs-2 px-4 py-2">Category</h1>
             @foreach ($categories as $category)
-                <a href="{{ route('category', $category) }}" class="d-block bg-dark text-light text-center py-2">{{ $category->category }}</a>
+                <a href="{{ route('category', $category) }}" class="d-block bg-dark text-light text-center py-2 text-decoration-none">{{ $category->category }}</a>
             @endforeach
         </div>
     </div>
