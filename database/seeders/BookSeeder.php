@@ -63,6 +63,42 @@ class BookSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now()
             ],
+            [
+                'category_id' => 1,
+                'title' => 'Novel Snow Dancer',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'category_id' => 1,
+                'title' => 'TeenLit: Vision',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'category_id' => 2,
+                'title' => 'Pengantar Kimia Analitik Modern - Metode&Aplikasi',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'category_id' => 2,
+                'title' => 'Ng Almanac 2020 (Sc)',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'category_id' => 4,
+                'title' => 'Atur Duitmu!',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'category_id' => 4,
+                'title' => 'Kiat Jitu Menjadi Best Seller',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
         ]);
     }
 }
