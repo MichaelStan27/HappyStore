@@ -35,7 +35,7 @@ class DetailSeeder extends Seeder
             ],
             [
                 'book_id' => 3,
-                'author' => 'Anonymous',
+                'author' => 'Valerie',
                 'publisher' => 'Elex Media Komputindo',
                 'year' => 2022,
                 'description' => "Menjadi anak tengah itu tandanya harus mau mengalah seumur hidup. Entah mengalah sama si Bungsu, atau bersabar kalau dibanding-bandingkan sama si Sulung yang superior. Namun, apa iya harus mengalah juga soal jodoh? Acara buka puasa bersama di rumah mendadak canggung, saat si Tengah mengenalkan sang pacar pada keluarganya. Gilang si Tengah, kesal saat mengetahui bahwa Gita ternyata sudah kenal duluan dengan si Sulung, Gara. Yang bikin gawat, orangtua Gita sangat berharap agar Gara menjadi menantu mereka. Nggak heran juga, karena si Tengah sadar kalau si Sulung akan selalu dianggap lebih baik dari dirinya. Ironisnya, sejak malam itu pula, Gara justru lebih terbuka pada Gita dibanding keluarganya sendiri. Dan sekarang, satu-satunya orang yang tahu rahasia Gara adalah Gita. Apakah hubungan si Tengah dan gadisnya akan baik-baik saja? Kapan si Tengah akan berhenti merasa rendah diri? Mungkinkah si sulung akan menyimpan rahasia dari keluarganya selamanya?",
