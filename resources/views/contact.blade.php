@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Contact')
+@section('title', $title)
 
 @section('content')
 <div class="container mx-auto mt-4 d-flex gap-5">
