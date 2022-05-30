@@ -12,6 +12,7 @@ class ContactController extends Controller
     {
         return view('contact', [
             'categories' => Category::all(),
+            'title' => 'Contact',
         ]);
     }
 }

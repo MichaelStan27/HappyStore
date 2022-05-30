@@ -13,6 +13,7 @@ class HomeController extends Controller
         return view('home', [
             'books' => Book::with('detail')->paginate(5),
             'categories' => Category::all(),
+            'title' => 'Home',
         ]);
     }
 }
