@@ -1,4 +1,4 @@
-## Happy Store
+## Happy Book Store
 
 ### Prerequisite
 
