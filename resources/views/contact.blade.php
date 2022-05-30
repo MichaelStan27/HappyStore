@@ -28,7 +28,7 @@
     <div class="">
         <h1 class="bg-dark text-light fs-2 px-4 py-2">Category</h1>
         @foreach ($categories as $category)
-            <a href="" class="d-block bg-black text-light text-center py-2">{{ $category->category }}</a>
+            <a href="" class="d-block bg-dark text-light text-center py-2">{{ $category->category }}</a>
         @endforeach
     </div>
 </div>
