@@ -9,6 +9,7 @@
     <title>@yield('title')</title>
 </head>
 <body>
+    @include('partials.navbar')
     @yield('content')
 </body>
 </html>
