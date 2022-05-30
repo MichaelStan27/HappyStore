@@ -7,7 +7,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="{{ route('home') }}">Home</a>
+            <a class="nav-link {{ ($title == 'Home') ? 'active' : '' }}" aria-current="page" href="{{ route('home') }}">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -20,7 +20,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ route('contact') }}">Contact</a>
+            <a class="nav-link {{ ($title == 'Contact') ? 'active' : '' }}"" href="{{ route('contact') }}">Contact</a>
           </li>
         </ul>
       </div>
